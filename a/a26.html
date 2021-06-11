@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="/css/styles.css" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+  </head>
+  <body class="body">
+
+	<h1 class="tag">ငါးသလောက်ပေါင်း </h1
+
+
+	<div class="slideshow-container">
+
+	  <div class="mySlides fade">
+		<div class="numbertext">1 / 3</div>
+		<img src="/img/a26.jpg" style="width:100%">
+		<div class="text">ပုံ1</div>
+	  </div>
+
+	  <div class="mySlides fade">
+		<div class="numbertext">2 / 3</div>
+		<img src="/img/a26.jpg" style="width:100%" style="height:80%">
+		<div class="text">ပုံ2</div>
+	  </div>
+
+	  <div class="mySlides fade">
+		<div class="numbertext">3 / 3</div>
+		<img src="/img/a26.jpg" style="width:100%">
+		<div class="text">ပုံ3</div>
+	  </div>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+	<h2 class="tag">ပါဝင်ပစ္စည်းများ</h2>
+	
+	<pre class="body">
+	
+ငါးသလောက်အကောင်ကြိးတစ်ကောင် ၅၀၀ဂရမ်
+ကြက်သွန်နီ ၂ လုံး (ထောင်းထားပါ)
+ကြက်သွန်ဖြူ ၃ မွှာ (ထောင်းထားပါ)
+ချင်း ၁ လက်မ (ညက်အောင် ထောင်းထားပါ)
+စပါးလင် ၃ ချောင်း
+ဥစားကြက်သွန် ၅ လုံး (အခွံနွှာ ရေဆေးထားပါ)
+ခရမ်းချဥ်သီး ၄ လုံး (လေးစိတ်စိတ်ထားပါ)
+နနွင်းမှုန့် လဘက်ရည်ဇွန်း ၂ ဇွန်း
+ငရုတ်သီးအရောင်တင်မှုန့် ထမင်းစားဇွန်း ၂ ဇွန်း
+ခနောကြက်သားမှုန့် ထမင်းစားဇွန်း ၂ ဇွန်း
+ရှာလကာရည် ထမင်းစားဇွန်း ၂ ဇွန်း
+ဆီ ထမင်းစားဇွန်း ၇ ဇွန်း
+ရေ ၂ ခွက် (၅၀၀ မီလီမီတာ)
+
+	
+	</pre>
+
+
+	<h3 class="tag">ပြုလုပ်နည်း</h3>
+
+	<p>
+	  စပါးလင်၃ခေျာင်းကို
+	  ရေဆေးပြီး အရင်းပိုင်းကိုယူ ပါးပါးလှီးကာထောင်းထားပါကျန်အပိုင်းကိုခဏဖယ်ထားပါ
+	  ငါးသလောက်ကို ရေဆေးသန့်စင်ပြီး လေးပိုင်းပိုင်းပြီး ခနောကြက်သားမှုန့် ၁​ဇွန်း၊ နနွင်း ၁ ဇွန်း၊ ရှာလကာရည်ထည့်နယ်ကာ ၃၀ မိနစ်နှပ်ထားပါ။
+	  ချက်မယ့်အိုးထဲကို ဆီထည့်ပြီး ဆီဆူလာတဲ့အခါ ကြက်သွန်နီ၊ ကြက်သွန်ဖြူ၊ ဂျင်း ၊ စပါးလင်၊ တို့ထည့်ပါ။ နည်းနည်းနွမ်းလာပြီဆိုရင် နနွင်း၊ ငရုတ်သီးအရောင်တင်မှုန့်ထည့်ကာဆီသတ်ပါ။ပြီးတဲ့အခါ အရသာနယ်ထားတဲ့ငါးသလောက်တွေကို ထည့်ပေးလိုက်ပါ။ ၃ မိနစ်ခန့် မွှေးပျံ့လာအောင် ဆီသတ်ပါ။
+
+Power Pressure Cooker ထဲမှာ ဖယ်ထားတဲ့ စပါးလင်အဖျားပိုင်းတွေကို ခင်းထားပေးပါ။ ဆီသတ်ထားတဲ့ငါးတွေကို အိုးထဲစီစီညီညီထည့်ပြီး ခနောကြက်သားမှုန့် ၁ ဇွန်း၊ ရေ၊ ဥစားကြက်သွန်၊ ခရမ်းချဉ်သီးတို့ ထည့်ပေးပါ။
+
+မီးတစ်ဝက်အနေအထားနဲ့ အိုးကိုတည်ပါ။ Power Pressure Cooker နဲ့မို့ ၁ နာရီခန့်တည်ထားရင် လုံလောက်ပါပြီ။
+
+၁ နာရီကြာလို့ အိုးဖွင့်လိုက်တဲ့အခါ နူးအိမွှေးပျံ့နေတဲ့ ငါးသလောက်ပေါင်းလေးကို ရရှိမှာဖြစ်ပါတယ်နော်။
+
+	</p>
+
+
+
+
+
+
+  </body>
+</html> 
+

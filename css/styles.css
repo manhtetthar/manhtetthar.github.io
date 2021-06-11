@@ -1,0 +1,9 @@
+.tag{ color:#FF1477}
+@font-face { 
+font-family: MyFont; 
+src: url("/fonts/unicode.ttf") } 
+
+.body { 
+font-family: MyFont; 
+font-size: medium;
+ text-align: justify; }

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="/css/styles.css" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+  </head>
+  <body class="body">
+
+	<h1 class="tag">ကြက်သားကာလသားချက်</h1>
+
+	<div class="slideshow-container">
+
+	  <div class="mySlides fade">
+		<div class="numbertext">1 / 3</div>
+		<img src="/img/a1.jpg" style="width:100%">
+		<div class="text">ပုံ1</div>
+	  </div>
+
+	  <div class="mySlides fade">
+		<div class="numbertext">2 / 3</div>
+		<img src="/img/a1.jpg" style="width:100%" style="height:80%">
+		<div class="text">ပုံ2</div>
+	  </div>
+
+	  <div class="mySlides fade">
+		<div class="numbertext">3 / 3</div>
+		<img src="/img/a1.jpg" style="width:100%">
+		<div class="text">ပုံ3</div>
+	  </div>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+	<h2 class="tag">ပါဝင်ပစ္စည်းများ</h2>
+	<ul class="li">
+	  <li>ကြက်သားဗမာကြက် 50ကျပ်သား</li>
+	  <li>ဗူးသီး 1စိတ်</li>
+	  <li>ကြက်သွန်နီ 2လုံး</li>
+	  <li>ကြက်သွန်ဖြူ 5မွှာ</li>
+	  <li>ငရုတ်သီးစိမ်းအမှုန့် 1ဇွန်း</li>
+	  <li>ဂျင်း လက်တစ်ဆစ်</li>
+	  <li>အရသာမှုန့် အနည်းငယ်</li>
+	  <li>ငံပြာရည် အနည်းငယ်</li>
+	  
+	  
+	</ul>
+
+	<h3 class="tag">ပြုလုပ်နည်း</h3>
+	
+အရင်ဆုံး ကြက်သားကို စင်ကြယ်အောင် ရေနဲ့ ဆေးကြောပေးရပါမယ်။ များသောအားဖြင့် ကြက်ရင်ပုံသားမှာ သွေးခဲတွေ၊ သွေးစလေးတွေ ကပ်ပါနေတတ်တာမို့ အဲဒါတွေကို ပြောင်စင်အောင် ဆေးကြောပေးရပါမယ်။ရေဆေးပြီးရင်တော့ ကြက်သားကို အရွယ်တော်လေးတွေ ခုတ်ထစ်ပေးရပါမယ်။ အတုံးအရွယ်အစား ကြီးနေရင် ကြက်သားနူးဖို့ အချိန်ပိုကြာသလို စားတဲ့အချိန်မှာလည်း သိပ်အဆင်မပြေလှပါဘူး။ ပြီးရင်တော့ ကြက်သားတုံးလေးတွေကို အရသာမှုန့်၊ ငံပြာရည်တို့နဲ့ အသားထဲကို စိမ့်ဝင်စေတဲ့အထိ နယ်ပေးရပါမယ်။
+ကြက်သားနယ်ပြီးရင်တော့ ကြက်သွန်ဖြူ၊ ကြက်သွန်နီ၊ ငရုတ်သီးအစိမ်းမှုန့်နဲ့ ဂျင်းတို့ကို ရောပြီး ညက်နေအောင်ထောင်းပေးပါ။ ဗူးသီးကို ရေစင်အောင်ဆေးကြောပြီး မထူမပါးလေး လှီးပေးထားရပါမယ်။ ဗူးသီး လှီးတဲ့အခါ မထူမပါးလှီးပေးရပါမယ်။ ပြီးရင်တော့ ကြက်ကာလသားဟင်းချက်ဖို့အတွက် အားလုံးရယ်ဒီဖြစ်ပါပြီ။
+ထောင်းထားပီးသား ကြက်သွန်ဖြူ၊ ကြက်သွန်နီနဲ့ ဂျင်းတို့ကို အရင်ဆီသတ်ပေးပါ။ ငရုတ်သီးအစိမ်းမှုန့်နံ့ ပျောက်သည်အထိ ဆီပူပူနဲ့ ဆီသတ်ပြီးရင်တော့ ကြက်သားတွေကို ထည့်လို့ရပါပြီ။ ကြက်သားထည့်ပြီး ငါးမိနစ်ခန့်အထိ အဆက်မပြတ် မွှေပေးဖို့တော့ လိုပါလိမ့်မယ်။ ဒါမှ ကြက်သား မြန်မြန်ကျက်မှာပါ။ ငါးမိနစ်ပြည့်ပြီဆိုရင်တော့ သင့်တော်တဲ့ရေပမာဏ ထည့်ပြီးတော့ မီးပြင်းပြင်းလေးနဲ့ ကြက်သားနူးအိသည်အထိ ထားပေးလိုက်ပါ။
+ကြက်သားနူးအိသွားပြီဆိုရင်တော့ ဗူးသီးလေးတွေကို ထည့်လို့ရပါပြီ။ သတိပြုရမှာက ကြက်သားနူးအိပြီဆိုမှ ဗူးသီးထည့်ပေးဖို့ပါပဲ။ ဗူးသီးထည့်တာ စောသွားရင် ဗူးသီးအရောင်ပါ မလှတော့ပဲ အနူးလွန်ပြီး စားလို့မကောင်းတော့ပါဘူး။ ဒါကြောင့်မို့ ဗူးသီးကို ကြက်သားနူးအိပြီဆိုမှ ထည့်ပေးဖို့ လိုပါလိမ့်မယ်။ ဗူးသီးထည့်ပြီးရင်တော့ မီးအရှိန် နည်းနည်းလျှော့ပေးလိုက်ပါ။ မီးမျှင်းမျှင်းလေးကြောင့် ဗူးသီးက ပုံစံမပျက်ပဲ နဂိုအရောင်အတိုင်းလေး ရှိနေပါလိမ့်မယ်။
+ဗူးသီးနူးပြီဆိုရင်တော့ ကြက်ဗူးသီး (ခေါ်) ကြက်ကာလသားဟင်းကို သုံးဆောင်လို့ရပါပြီ။ မဆလာနံ့ သင်းသင်းလေးနဲ့ စားချင်တယ်ဆိုရင်တော့ မဆလာဇွန်းဝက်ခန့်ကို ဗူးသီးထည့်ပီးတာနဲ့ ထည့်ပေးလို့ရပါတယ်။
+	
+	
+	
+
+	<p class="k">
+
+	  
+
+	</p>
+
+
+
+
+
+
+  </body>
+</html> 
+
